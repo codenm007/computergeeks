@@ -1,0 +1,51 @@
+  #module a.collapsed:after {
+    content: '+ See More';
+  }
+  
+  #module a:not(.collapsed):after {
+    content: '- See Less';
+  }
+  
+  #module .pbset.collapse:not(.show) {
+    display: block;
+    /* height = lineheight * no of lines to display */
+    height: 4.5em;
+    overflow: hidden;
+  }
+  
+  #module .pbset.collapsing {
+    height: 4.5em;
+  }
+
+  #module .pbset2.collapse:not(.show) {
+    display: block;
+    /* height = lineheight * no of lines to display */
+    height: 4.5em;
+    overflow: hidden;
+  }
+  
+  #module .pbset2.collapsing {
+    height: 4.5em;
+  }
+
+  #module .tbset1.collapse:not(.show) {
+    display: block;
+    /* height = lineheight * no of lines to display */
+    height: 4.5em;
+    overflow: hidden;
+  }
+  
+  #module .tpset1.collapsing {
+    height: 4.5em;
+  }
+
+  #module .tbset2.collapse:not(.show) {
+    display: block;
+    /* height = lineheight * no of lines to display */
+    height: 4.5em;
+    overflow: hidden;
+  }
+  
+  #module .tpset2.collapsing {
+    height: 4.5em;
+  }
